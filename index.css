@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    padding: 20px;
     background-image: url(assets/homebg.avif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,6 +10,7 @@ body {
 
 .container {
     position: relative;
+    padding: 20px;
 }
 
 #logo {
