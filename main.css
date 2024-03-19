@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    padding: 20px;
     background-image: url(assets/bg1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,3 +87,26 @@ h1 {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 80px;
+        height: 80px;
+    }
+
+    .game-container {
+        grid-template-columns: repeat(3, 80px);
+        width: 250px;
+    }
+
+    .top-bar {
+        width: 150px;
+    }
+
+    .stats {
+        width: 150px;
+    }
+
+    .stats-item {
+        font-size: 14px;
+    }
+}
